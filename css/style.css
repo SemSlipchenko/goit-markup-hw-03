@@ -1,0 +1,234 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --hover-color: #2196F3;
+    --secondary-text-color: #FFFFFF;
+    --background-color: #2F303A;
+    --background-secondary-color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--hover-color);
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+/* header */
+
+.header {
+    background-color: var(--background-secondary-color);
+}
+
+.header-list-item {
+    list-style-type: none;
+}
+
+.header-list-item-link {
+    color: var(--main-color);
+}
+
+.header-list-item-link:hover {
+    color: var(--hover-color);
+}
+
+.header-link {
+    color: var(--secondary-color);
+}
+
+.header-link:hover {
+    color: var(--hover-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-link-logo span {
+    color: var(--secondary-text-color);
+}
+
+.footer-link-address {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+
+.footer-link-address:hover {
+    color: var(--hover-color);
+}
+
+.footer address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* index.html  */
+
+/* section hero */
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--hover-color);
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+}
+
+/* section advantage */
+
+.advantage-list-item {
+    list-style-type: none;
+}
+
+.advantage-list-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.advantage-list-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;   
+    color: var(--secondary-color);
+}
+
+/* section whatwedo */
+
+.whatwedo-list-item {
+    list-style-type: none;
+}
+
+/* team */
+
+.team-list-item {
+    list-style-type: none;
+}
+
+.team-list-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* portfolio.html  */
+
+.portfolio-list-item {
+    list-style-type: none;
+}
+
+.portfolio-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    border: none;
+    background-color: var(--background-secondary-color);
+}
+
+.portfolio-btn:hover {
+    background-color: var(--hover-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+/* section portfolio-cards  */
+
+.cards-list-item {
+    list-style-type: none;
+}
+
+.cards-list-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em; 
+    color: var(--main-color);
+}
+
+.cards-list-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-color);
+}
