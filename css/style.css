@@ -7,6 +7,10 @@
     --background-secondary-color: #FFFFFF;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -133,7 +137,7 @@ button {
 }
 
 .footer .container {
-    padding: 60px 0;
+    padding: 60px 15px;
 }
 
 .footer-link-logo span {
@@ -180,11 +184,10 @@ button {
 
 .hero {
     background-color: var(--background-color);
-    margin-bottom: 94px;
 }
 
 .hero .container {
-    padding: 200px 0;
+    padding: 200px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,7 +230,8 @@ button {
 /* section advantage */
 
 .advantage {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantage-list {
@@ -267,7 +271,7 @@ button {
 /* section whatwedo */
 
 .whatwedo {
-    margin-bottom: 188px;
+    padding-bottom: 94px;
 }
 
 .whatwedo-title {
@@ -290,7 +294,8 @@ button {
 /* team */
 
 .team {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team-title {
@@ -343,19 +348,16 @@ button {
 
 /* portfolio.html  */
 
-.portfolio-cards {
-    margin: 94px 0;
-}
-
 .portfolio-cards .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 94px 0;
 }
 
 .portfolio-btn-list {
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .portfolio-list-item {
@@ -378,6 +380,8 @@ button {
     color: var(--main-color);
     border: none;
     background-color: var(--background-secondary-color);
+    border-radius: 5px;
+    padding: 6px 22px;
 }
 
 .portfolio-btn:hover {
@@ -398,6 +402,8 @@ button {
 
 .cards-list-item {
     list-style-type: none;
+    border: 1px solid #EEEEEE;
+    background-color: var(--background-secondary-color);
     
     margin-left: 30px;
     margin-bottom: 30px;
@@ -405,7 +411,12 @@ button {
 }
 
 .cards-list-item-img {
-    margin-bottom: 20px;
+    display: block;
+}
+
+.card-description-wrap {
+    width: 364px;
+    padding: 20px 24px;
 }
 
 .cards-list-item-title {
