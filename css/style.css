@@ -78,6 +78,7 @@ button {
 
 .header {
     padding: 25px 0;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .container {
@@ -134,10 +135,7 @@ button {
 
 .footer {
     background-color: var(--background-color);
-}
-
-.footer .container {
-    padding: 60px 15px;
+    padding: 60px 0;
 }
 
 .footer-link-logo span {
@@ -348,11 +346,14 @@ button {
 
 /* portfolio.html  */
 
+.portfolio-cards {
+    padding: 94px 0;
+}
+
 .portfolio-cards .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 94px 0;
 }
 
 .portfolio-btn-list {
@@ -404,6 +405,7 @@ button {
     list-style-type: none;
     border: 1px solid #EEEEEE;
     background-color: var(--background-secondary-color);
+    max-width: 370px;
     
     margin-left: 30px;
     margin-bottom: 30px;
